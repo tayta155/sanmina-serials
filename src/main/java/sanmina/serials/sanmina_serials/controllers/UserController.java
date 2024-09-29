@@ -9,6 +9,6 @@ public class UserController {
     @GetMapping("/details ")
     public String details(){
 
-        return "Details";
+        return "details";
     }
 }
