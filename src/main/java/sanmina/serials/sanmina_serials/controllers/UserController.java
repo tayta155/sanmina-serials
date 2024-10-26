@@ -14,7 +14,7 @@ public class UserController {
 
         User user = new User("Eduardo", "Sustayta");
         model.addAttribute("title", "Hola mundo en spring boot");
-        model.addAttribute("nombre", user);
+        model.addAttribute("user", user);
 
         return "details";
     }
